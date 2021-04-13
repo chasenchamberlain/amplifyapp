@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const ServicesContainer = styled.div`
-    height: 800px;
+    height: 860px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -76,6 +76,6 @@ export const ServicesH2 = styled.h2`
 `
 
 export const ServicesP = styled.p`
-    font-size: 1rem;
+    font-size: 14px;
     text-align: center;
 `

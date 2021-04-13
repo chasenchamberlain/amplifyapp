@@ -18,9 +18,9 @@ const HeroSection = () => {
                     <HeroH1>Chasen Chamberlain</HeroH1>
                     <HeroP>I am a Software Engineer who loves to program and bake bread.</HeroP>
                     <HeroBtnWrapper>
-                        <Button to='/signup' onMouseEnter={onHover} onMouseLeave={onHover} primary="true" dark="true">
+                        {/* <Button to='/signup' onMouseEnter={onHover} onMouseLeave={onHover} primary="true" dark="true">
                             Check it out {hover ? <ArrowForward /> : <ArrowRight />}
-                        </Button>
+                        </Button> */}
                     </HeroBtnWrapper>
                 </HeroContent>
             </HeroContainer>

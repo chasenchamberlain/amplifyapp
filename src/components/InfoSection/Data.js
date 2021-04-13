@@ -1,18 +1,19 @@
 export const homeObjOne = {
     id: 'about',
-    lightBg: false,
-    lightText: true,
-    lightTextDesc: true,
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
     topLine: 'A little about me',
-    headLine: 'I am super cool and you should hire me',
-    description: 'Hire me please I want to make money and be awesome',
-    buttonLabel: 'Reach Out',
+    headLine: 'Software Engineer based in Salt Lake City, Utah',
+    description1: 'BS Computer Science, University of Utah, Class of 2019.',
+    description2: 'I am a programmer who is driven by curiosity, and loves to learn and try new things. Essentially I build and break things.',
+    buttonLabel: 'Contact',
     imgStart: false,
     img: require('../../images/svg-4.svg').default,
     alt: 'Coder',
     dark: true,
     primary: true,
-    darkText: false
+    darkText: true
 };
 
 export const homeObjTwo = {
@@ -20,9 +21,9 @@ export const homeObjTwo = {
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
-    topLine: 'Skills',
-    headLine: 'I am super cool and you should hire me',
-    description: 'Hire me please I want to make money and be awesome',
+    topLine: 'Hobbies',
+    headLine: 'Live streaming and media consumption',
+    description: 'I get crafty with cross stitching, live stream shennagians on Twitch and can\'t resist a great movie/tv show.',
     buttonLabel: 'Howdy',
     imgStart: true,
     img: require('../../images/svg-3.svg').default,
@@ -33,7 +34,7 @@ export const homeObjTwo = {
 };
 
 export const homeObjThree = {
-    id: 'signup',
+    id: 'contact',
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
@@ -48,3 +49,7 @@ export const homeObjThree = {
     primary: false,
     darkText: true
 };
+
+export const homeObjFour = {
+    id: 'skills'
+}
