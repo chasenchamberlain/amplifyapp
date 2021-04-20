@@ -16,7 +16,7 @@ const InfoSection = ({ lightBg, id, imgStart, topLine, lightText, darkText, desc
                                 <Heading lightText={lightText}>{headLine}</Heading>
                                 <Subtitle darkText={darkText}>{description}</Subtitle>
                                 <BtnWrap>
-                                    <Button to="home"
+                                    <Button to="contact"
                                         smooth={true}
                                         duration={500}
                                         spy={true}
@@ -68,7 +68,7 @@ const InfoSectionAbout = ({ lightBg, id, imgStart, topLine, lightText, darkText,
                                 <Subtitle darkText={darkText}>{description1}</Subtitle>
                                 <Subtitle darkText={darkText}>{description2}</Subtitle>
                                 <BtnWrap>
-                                    <Button to="home"
+                                    <Button to="contact"
                                         smooth={true}
                                         duration={500}
                                         spy={true}

@@ -61,18 +61,18 @@ const Navbar = ({ toggle }) => {
                                 >Discover</NavLinks>
                             </NavItem>
                             <NavItem>
-                                <NavLinks to="signup"
+                                <NavLinks to="contact"
                                     smooth={true}
                                     duration={500}
                                     spy={true}
                                     exact='true'
                                     offset={-80}
 
-                                >Sign Up</NavLinks>
+                                >Contact</NavLinks>
                             </NavItem>
                         </NavMenu>
-                        <NavBtn>
-                            <NavBtnLink to="/signin"
+                        {/* <NavBtn>
+                            <NavBtnLink to="contact"
                                 smooth={true}
                                 duration={500}
                                 spy={true}
@@ -80,7 +80,7 @@ const Navbar = ({ toggle }) => {
                                 offset={-80}
 
                             >Contact</NavBtnLink>
-                        </NavBtn>
+                        </NavBtn> */}
                     </NavbarContainer>
                 </Nav>
             </IconContext.Provider>

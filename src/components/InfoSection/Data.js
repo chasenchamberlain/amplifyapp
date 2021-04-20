@@ -24,7 +24,7 @@ export const homeObjTwo = {
     topLine: 'Hobbies',
     headLine: 'Live streaming and media consumption',
     description: 'I get crafty with cross stitching, live stream shennagians on Twitch and can\'t resist a great movie/tv show.',
-    buttonLabel: 'Howdy',
+    buttonLabel: 'Contact',
     imgStart: true,
     img: require('../../images/svg-3.svg').default,
     alt: 'Alien',
@@ -35,19 +35,19 @@ export const homeObjTwo = {
 
 export const homeObjThree = {
     id: 'contact',
-    lightBg: true,
-    lightText: false,
-    lightTextDesc: false,
-    topLine: 'A little about me',
-    headLine: 'I am super cool and you should hire me',
-    description: 'Hire me please I want to make money and be awesome',
-    buttonLabel: 'Reach Out',
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
+    topLine: 'Disclaimer',
+    headLine: 'This website is still under construction',
+    description: 'Contact me at chasen.chamberlain (AT) gmail (DOT) com',
+    buttonLabel: 'Contact',
     imgStart: false,
     img: require('../../images/svg-2.svg').default,
     alt: 'Car',
     dark: false,
-    primary: false,
-    darkText: true
+    primary: true,
+    darkText: false
 };
 
 export const homeObjFour = {
