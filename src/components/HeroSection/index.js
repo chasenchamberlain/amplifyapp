@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
 import Video from '../../videos/retroVideo.mp4'
 import { Button } from '../ButtonElements.js'
-import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroBtnWrapper, ArrowForward, ArrowRight } from './HeroElements'
+import Image from '../../images/monument_valley.jpg'
+import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroBtnWrapper, ImgBg, ArrowForward, ArrowRight } from './HeroElements'
 
 const HeroSection = () => {
     const [hover, setHover] = useState(false)
@@ -12,7 +13,8 @@ const HeroSection = () => {
         <>
             <HeroContainer>
                 <HeroBg>
-                    <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
+                    {/* <VideoBg autoPlay loop muted src={Video} type='video/mp4' /> */}
+                    <ImgBg src={Image} alt={'Mountain'} />
                 </HeroBg>
                 <HeroContent>
                     <HeroH1>Chasen Chamberlain</HeroH1>

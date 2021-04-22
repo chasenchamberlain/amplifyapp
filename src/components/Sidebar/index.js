@@ -11,13 +11,13 @@ function Sidebar({ isOpen, toggle }) {
                 <SidebarWrapper>
                     <SidebarMenu>
                         <SidebarLink to="about" onClick={toggle}>About</SidebarLink>
-                        <SidebarLink to="discover" onClick={toggle}>Discover</SidebarLink>
-                        <SidebarLink to="services" onClick={toggle}>Services</SidebarLink>
-                        <SidebarLink to="signup" onClick={toggle}>Sign Up</SidebarLink>
+                        <SidebarLink to="skills" onClick={toggle}>Skills</SidebarLink>
+                        <SidebarLink to="discover" onClick={toggle}>Hobbies</SidebarLink>
+                        <SidebarLink to="contact" onClick={toggle}>Contact</SidebarLink>
                     </SidebarMenu>
-                    <SideBtnWrap>
-                        <SideBarRoute to="/signin">Contact</SideBarRoute>
-                    </SideBtnWrap>
+                    {/* <SideBtnWrap>
+                        <SideBarRoute to="contact">Contact</SideBarRoute>
+                    </SideBtnWrap> */}
                 </SidebarWrapper>
             </SidebarContainer>
         </>
