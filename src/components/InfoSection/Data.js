@@ -5,7 +5,7 @@ export const homeObjOne = {
     lightTextDesc: false,
     topLine: 'A little about me',
     headLine: 'Software Engineer based in Salt Lake City, Utah',
-    description1: 'BS Computer Science, University of Utah, Class of 2019.',
+    description1: 'BS in Computer Science, University of Utah, Class of 2019.',
     description2: 'I am a programmer who is driven by curiosity, and loves to learn and try new things. Essentially I build and break things.',
     buttonLabel: 'Contact',
     imgStart: false,
