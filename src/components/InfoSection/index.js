@@ -32,10 +32,10 @@ const InfoSection = ({ lightBg, id, imgStart, topLine, lightText, darkText, desc
                         <Column2>
                             {id === 'discover' &&
                                 <TwitchEmbed
-                                    channel="nashpotatoz"
+                                    channel="chasennash"
                                     height={350}
                                     width={500}
-                                    id="nashpotatoz"
+                                    id="chasennash"
                                     theme="light"
                                     withChat={false}
                                     muted={true}
