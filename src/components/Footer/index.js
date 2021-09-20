@@ -19,7 +19,7 @@ const Footer = () => {
                             <SocialIconLink target="_blank" href='https://www.linkedin.com/in/chasenchamberlain' aria-label="LinkedIn"><FaLinkedin /></SocialIconLink>
                             <SocialIconLink target="_blank" href="https://www.github.com/chasenchamberlain" aria-label="Github" ><FaGithub /></SocialIconLink>
                             <SocialIconLink target="_blank" href="https://www.twitter.com/chasennash" aria-label="Twitter" ><FaTwitter /></SocialIconLink>
-                            <SocialIconLink target="_blank" href="https://www.twitch.tv/nashpotatoz" aria-label="Twitch" ><FaTwitch /></SocialIconLink>
+                            <SocialIconLink target="_blank" href="https://www.twitch.tv/chasennash" aria-label="Twitch" ><FaTwitch /></SocialIconLink>
                         </SocialIcons>
                     </SocialMediaWrap>
                 </SocialMedia>
