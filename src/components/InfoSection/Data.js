@@ -23,7 +23,7 @@ export const homeObjTwo = {
     lightTextDesc: false,
     topLine: 'Hobbies',
     headLine: 'Live streaming, media consumption and bread',
-    description: 'I love to bake bread, live stream shennagians on Twitch and can\'t resist a great movie/tv show.',
+    description: 'I love to bake bread, live stream shenanigans on Twitch and can\'t resist a great movie/tv show.',
     buttonLabel: 'Contact',
     imgStart: true,
     img: require('../../images/svg-3.svg').default,
